@@ -3,6 +3,7 @@ body{
     background-image: url(pile-3d-play-button-logos.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100vh;
 }
 
 .overlay{
@@ -27,10 +28,10 @@ body{
     opacity: .5;
     z-index: 2;
 }
-.main{
+/* .main{
     width: 600px;
     margin: 50px auto;
-}
+} */
 
 h1{
     text-align: center;
