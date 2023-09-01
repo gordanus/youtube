@@ -20,10 +20,14 @@
 <body>
     <!-- <div class="my-modal"></div> -->
     <div class="overlay"></div>
-    <div class="main d-grid gap-2 col-6 mx-auto">
+    <div class="main d-grid gap-1 col-6 mx-auto">
         <h1>You Tube bez reklama</h1>
-        <p>Unesite link od You Tube videa u polje dole i kreirajte novi link koji otvara isti video bez reklama hehe😁.<br>
-        Ovo radi samo na desktop i laptop računarima. NE radi na You Tube mobilnoj aplikaciji.</p>
+        <input type="text" class="form-control" placeholder="Pojam za pretragu..." id="YT">
+        <a id="searchBtn" class="btn btn-danger" href="" target="_blank">Pretraži YouTube</a><br>
+        <p>1. Pretražite YouTube i pustite video<br>
+            2. Iskopirajte kompletan link od videa, zatim zatvorite prozor YouTube-a<br>
+            3. Unesite link od You Tube videa u polje dole i kreirajte novi link koji otvara isti video bez reklama hehe😁.<br>
+            Ovo radi samo na desktop i laptop računarima. NE radi na You Tube mobilnoj aplikaciji.</p>
         <input type="text" class="form-control" placeholder="Ovde ubaciti link..." id="url"><br>
         <input type="button" class="btn btn-primary" value="Napravi link bez reklama" id="convertBtn">
         <a href="#" id="finalUrl" target="_blank"></a>

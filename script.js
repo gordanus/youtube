@@ -1,5 +1,12 @@
 let spinner = document.getElementsByClassName("my-spinner")[0];
 let convertBtn = document.getElementById("convertBtn");
+let searchBTN = document.getElementById("searchBtn");
+
+searchBTN.addEventListener('click',function(){
+    let searchQuery = document.getElementById("YT").value;
+    console.log(searchQuery);
+    searchBTN.setAttribute('href','https://www.youtube.com/results?search_query=' + searchQuery);
+});
 
 convertBtn.addEventListener("click",function(){
     document.getElementById("finalUrl").innerHTML = "";
